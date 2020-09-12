@@ -17,7 +17,10 @@ dependencies:
 
   # Plugins for rendering the <video> tag.
   video_player: ^0.10.11+2
-  chewie: ^0.9.10
+  chewie:
+    git:
+      url: https://github.com/JEuler/chewie.git
+      ref: ios-orientation-fix
 
   # Plugin for rendering the <iframe> tag.
   webview_flutter: ^0.3.22+1
@@ -36,4 +39,3 @@ dev_dependencies:
     sdk: flutter
 
 flutter:
-

@@ -8,6 +8,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.4.2"
+  auto_orientation:
+    dependency: transitive
+    description:
+      name: auto_orientation
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.6"
   boolean_selector:
     dependency: transitive
     description:
@@ -32,9 +39,11 @@ packages:
   chewie:
     dependency: "direct main"
     description:
-      name: chewie
-      url: "https://pub.dartlang.org"
-    source: hosted
+      path: "."
+      ref: ios-orientation-fix
+      resolved-ref: ce3ed5b33d4999195f49e2e3e49749733b9a48e2
+      url: "https://github.com/JEuler/chewie.git"
+    source: git
     version: "0.9.10"
   chewie_audio:
     dependency: "direct main"
