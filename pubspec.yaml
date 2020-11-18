@@ -23,7 +23,7 @@ dependencies:
       ref: ios-orientation-fix
 
   # Plugin for rendering the <iframe> tag.
-  webview_flutter: ^0.3.22+1
+  webview_flutter: ^1.0.7
 
   # Plugins for rendering the <audio> tag.
   chewie_audio: ^1.0.0+1
